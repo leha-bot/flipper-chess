@@ -5,11 +5,12 @@ on:
     branches:
       - main
       - develop
-      - "**/**"
+  
   push:
     branches:
       - main
       - develop
+      - "**/**"
 
 env:
   firmware_version: '0.101.2'
